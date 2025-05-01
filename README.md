@@ -1,12 +1,18 @@
 # Halo semua!
 
-![Luthfi Adilal Mahbub](img/github-header-image3.png)
+<div align=center>
+  
+  ![Luthfi Adilal Mahbub](img/github-header-image3.png)
+</div>
 
-Hello, my name is Luthfi, I am Distinction Graduate Mobile Development Bangkit 2023 Batch 2, I have expertise in Kotlin programming languages. I am able to create andorid applications or websites, not only that I am also able to design applications and websites. I have received several certificates of programming both android and website. And I also have soft skills such as "critical thinking" and communication. I will continue to improve my skills to support my success in the future, I believe that my skills will have a good impact on the digital world.
+<div align=center>
+  <p>
+  Hello, nama saya Luthfi Adilal Mahbub , saya programmer fomo yang sering ngoding-ngoding gajelas.
 
-Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](https://www.linkedin.com/in/luthfiadilalmahbub/) ku ya.
+  </p>
+</div>
 
-### Skills
+#### Skills
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
@@ -24,7 +30,7 @@ Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](http
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
 </div>
 
-### Github Statistic
+#### Github Statistic
 
 <p align="center">
 <a href="https://github.com/luthfiadilal">
@@ -33,8 +39,6 @@ Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](http
 </a>
 </p>
 
-###
-
-<br clear="both">
+#### Game
 
 <img src="https://raw.githubusercontent.com/luthfiadilal/luthfiadilal/output/snake.svg" alt="Snake animation" />
