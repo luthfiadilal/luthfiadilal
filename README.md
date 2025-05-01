@@ -7,11 +7,11 @@
 
 <div align=center>
   
-  ##### Hello, nama saya Luthfi Adilal Mahbub , saya programmer fomo yang sering ngoding-ngoding gajelas.
+  ### Hello, nama saya Luthfi Adilal Mahbub , saya programmer fomo yang sering ngoding-ngoding gajelas.
 
 </div>
 
-#### Skills
+## Skills
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
@@ -29,7 +29,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
 </div>
 
-#### Github Statistic
+## Github Statistic
 
 <p align="left">
 <a href="https://github.com/luthfiadilal">
