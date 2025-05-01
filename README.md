@@ -6,15 +6,14 @@
 </div>
 
 <div align=center>
-  <p>
-  Hello, nama saya Luthfi Adilal Mahbub , saya programmer fomo yang sering ngoding-ngoding gajelas.
+  
+  ##### Hello, nama saya Luthfi Adilal Mahbub , saya programmer fomo yang sering ngoding-ngoding gajelas.
 
-  </p>
 </div>
 
 #### Skills
 
-<div align="center">
+<div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="30" alt="kotlin logo"  />
@@ -32,7 +31,7 @@
 
 #### Github Statistic
 
-<p align="center">
+<p align="left">
 <a href="https://github.com/luthfiadilal">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=luthfiadilal&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=luthfiadilal&layout=compact&layout=compact&theme=algolia"/>
