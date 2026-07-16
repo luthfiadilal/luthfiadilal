@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+
+    <!-- Text Gradient with Animation -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+      <animate attributeName="x1" values="-100%;200%;-100%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05" />
+    </pattern>
+  </defs>
+
+  <style>
+    .name {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 48px;
+      font-weight: 800;
+      fill: url(#text-grad);
+    }
+    .role {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 24px;
+      font-weight: 600;
+      fill: #cbd5e1;
+      letter-spacing: 2px;
+    }
+    .cursor {
+      fill: #38bdf8;
+      animation: blink 1s step-end infinite;
+    }
+    .floating-code {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #4f46e5;
+      opacity: 0.6;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes float1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-15px); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(15px); }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="800" height="300" fill="url(#bg-grad)" rx="15" />
+  
+  <!-- Overlay Grid -->
+  <rect width="800" height="300" fill="url(#grid)" rx="15" />
+
+  <!-- Animated Floating Decorative Elements -->
+  <g class="floating-code" style="animation: float1 6s ease-in-out infinite;">
+    <text x="80" y="80">&lt; / &gt;</text>
+    <circle cx="700" cy="220" r="15" fill="none" stroke="#4f46e5" stroke-width="3" />
+  </g>
+  <g class="floating-code" style="animation: float2 7s ease-in-out infinite;">
+    <text x="680" y="90">{ }</text>
+    <rect x="70" y="210" width="20" height="20" fill="none" stroke="#c084fc" stroke-width="3" transform="rotate(45 80 220)" />
+  </g>
+
+  <!-- Main Content Center -->
+  <g text-anchor="middle">
+    <!-- Small Greeting -->
+    <text x="400" y="115" font-family="sans-serif" font-size="16" fill="#94a3b8" letter-spacing="4">HI THERE, I'M</text>
+
+    <!-- Name with Glow Filter -->
+    <text x="400" y="170" class="name" filter="url(#glow)">Luthfi Adilal Mahbub</text>
+
+    <!-- Role with Blinking Cursor -->
+    <text x="400" y="215" class="role">
+      &gt; Fullstack Developer<tspan class="cursor">_</tspan>
+    </text>
+  </g>
+
+  <!-- Animated Bottom Line Indicator -->
+  <line x1="50" y1="290" x2="750" y2="290" stroke="url(#text-grad)" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <animate attributeName="stroke-dasharray" values="0 700;700 0;0 700" dur="10s" repeatCount="indefinite" />
+  </line>
+</svg>
