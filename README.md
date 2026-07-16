@@ -1,5 +1,3 @@
-# Halo semua!
-
 <div align="center">
   <a href="https://github.com/luthfiadilal">
     <img src="img/header-svg.svg" alt="Luthfi Adilal Mahbub - Fullstack Developer" width="100%" />
