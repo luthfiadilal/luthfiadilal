@@ -1,8 +1,9 @@
 # Halo semua!
 
-<div align=center>
-  
-  ![Luthfi Adilal Mahbub](img/github-header-image3.png)
+<div align="center">
+  <a href="https://github.com/luthfiadilalm26">
+    <img src="img/header.svg" alt="Luthfi Adilal Mahbub - Fullstack Developer" width="100%" />
+  </a>
 </div>
 
 <div align=center>
