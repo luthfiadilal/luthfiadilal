@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/luthfiadilal">
-    <img src="img/header.svg" alt="Luthfi Adilal Mahbub - Fullstack Developer" width="100%" />
+    <img src="img/header-svg.svg" alt="Luthfi Adilal Mahbub - Fullstack Developer" width="100%" />
   </a>
 </div>
 
